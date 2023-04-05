@@ -4,8 +4,6 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 public class BankCustomer extends BankDetails implements CreditCard {
-
-
     public void giveBankDetails() {
         try {
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
